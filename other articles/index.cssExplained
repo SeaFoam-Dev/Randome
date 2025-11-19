@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="resources/style.css" rel="stylesheet">
+</head>
+  <body>
+    
+    <!--This is the banner section-->
+
+    <header class="banner">
+      <h1>Common CSS Properties</h1>
+      <p class="intro">
+        Hi! This is my cheat sheet for CSS properties and how to use them. We
+        will cover topics of CSS that include colors, font, display, position,
+        and alignment. You will also learn how to use CSS and appy it to your
+        HTML code. By the end of this article you should be able to confidently
+        use CSS to make your websites much more beautiful! Lets get started!
+      </p>
+      <h4 class="note">
+        note: you should already understand and know HTML to apply this article
+      </h4>
+    </header>
+
+    <!--This is the applying css section-->
+
+    <section>
+      <h2>Applying and Understanding CSS</h2>
+      <p>
+        CSS is a code language that can not be of much use on its own. It is
+        designed to style and "beautify" your websites so they aren't so plain
+        and bland with just you HTML code. CSS stands for "Cascading Style
+        Sheets"; that means that your CSS code will style your HTML with
+        declarations that identify and style elements in a orderly manner.
+      </p>
+
+      <!--This is the ruleset explanation for element tags-->
+
+      <article>
+        <p>
+          You write CSS by selecting an element by its name: for an &lt;h1&gt;
+          tag you would name your declaration h1{} and fill the curly brakets
+          with as many declarations as you want.
+        </p>
+        <div class="example">
+          <p>
+            <br />h1(my ruleset target){<br />my declaration: my value;<br />}
+          </p>
+        </div>
+
+        <!--This is the explanation for id and class declarations-->
+      </article>
+      <p>
+        <br />You can use the name of the element or you can give elements names
+        and use those. The attribute of class can give lots of elements a name
+        that can be styled together. The id attribute can give an element a name
+        that can be styled separately from all other classes or element names it
+        falls into.
+      </p>
+
+      <!--class declarations-->
+
+      <article>
+        <p>
+          For the class attribute, put a period (.) before the name when styling
+          it in your CSS code.
+        </p>
+        <div class="example">
+          <p>
+            <br />.MyClass(my ruleset target){<br />my declaration: my value;<br />}
+          </p>
+        </div>
+      </article>
+
+      <!--id declarations-->
+
+      <article>
+        <p>
+          <br />For the id attribute, put a hash-tag (#) at the begginning of
+          your id name in your CSS code.
+        </p>
+        <div class="example">
+          <p>
+            <br />#MyId(my ruleset target){<br />my declaration: my value;<br />}
+          </p>
+        </div>
+      </article>
+
+      <!--This is the end-note for applying css-->
+
+      <p>
+        <br />That's about it for understanding CSS and the very basics on how
+        to use it! Next we will take a dive into the many declarations and
+        values that are the engine behind the CSS and styling! (to be continued!!!!)
+      </p>
+    </section>
+    <footer>
+      <a class="links" href="index.mybio">My Bio</a>
+      <a class="links" href="index.contact">Contact</a>
+      <a class="links" href="index.other">Other Articles</a>
+    </footer>
+  </body>
+</html>
